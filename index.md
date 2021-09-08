@@ -1,5 +1,4 @@
 # header 1
-
 ## 2
 
 ### 3
@@ -18,6 +17,7 @@ const test = require('../test.js')
 
 test | test1
 ------------
-test2 |test3
+test2 | test3
 ------------
 test4 | test5
+------------
