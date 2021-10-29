@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <head></head>
 <body>
-<div id="t"></div>
-<script>
-  let i = 'abc'
-  document.getElementById("t").innerText = i
-</script>
+  <script>
+    $(document).keypress(function(e){
+      if(e.shiftKey && e.keyCode === 87){ // capital W
+      alert('UP');
+      }
+    });
+  </script>
 </body>
